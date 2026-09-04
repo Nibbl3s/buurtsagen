@@ -9,8 +9,8 @@ Een interactieve kaart van Gentse folklore — echte sagen, legenden en boemanne
 Een nachtelijke kaart van Gent waar elke gloeiende markering een echt volksverhaal op een echte locatie voorstelt. Klik een orbe aan en lees de sage — met bronvermelding. Verhalen die je leest worden groen en blijven bewaard in je browser (localStorage).
 
 - 🗺️ Kaart-first: CARTO Dark Matter basiskaart met mist- en sfeereffecten
-- 📖 15 echte verhalen, elk met bronlink (volksverhalen.be, Wikipedia)
-- 🏷️ Filter per verhaaltype: Sage · Legende · Spook · Watergeest · Boeman
+- 📖 52 echte verhalen — Gent, Herzele en de omliggende dorperring — elk met bronlink (volksverhalen.be, verhalenbank.nl, Wikipedia)
+- 🏷️ Filter per verhaaltype: Sage · Legende · Spook · Watergeest · Hekserij · Dwaallicht · Boeman
 - 🕯️ "Vertel me een verhaal" — willekeurige sage uit de huidige selectie
 - ✅ Leesvoortgang lokaal bewaard, gelezen markeringen worden groen
 
