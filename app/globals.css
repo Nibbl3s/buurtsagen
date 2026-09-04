@@ -10,7 +10,7 @@ body {
 }
 
 #map { background: #d4d4d4; }
-.leaflet-tile-pane { filter: saturate(0.9); }
+.leaflet-tile-pane { filter: saturate(0.72) brightness(0.96); }
 .leaflet-container { font: inherit; }
 
 /* fog vignette */

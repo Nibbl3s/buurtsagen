@@ -45,12 +45,12 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
         zoomControl: false,
         attributionControl: false,
       });
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
       }).addTo(map);
       L.control
         .attribution({ position: "bottomright", prefix: false })
-        .addAttribution("© OpenStreetMap, © CARTO")
+        .addAttribution("© OpenStreetMap contributors")
         .addTo(map);
       mapRef.current = map;
 
