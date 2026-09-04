@@ -8,4 +8,6 @@ export type Sage = {
   tekst: string;
   bronNaam: string;
   bronUrl: string;
+  afbeelding?: string;
+  afbeeldingCredit?: string;
 };

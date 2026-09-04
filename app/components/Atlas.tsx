@@ -197,6 +197,14 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
               📍 {selected.plaats}
               {read.has(selected.id) && <span className="read-inline"> · ✓ gelezen</span>}
             </div>
+            {selected.afbeelding && (
+              <figure className="reader-fig">
+                <img src={selected.afbeelding} alt={selected.titel} />
+                {selected.afbeeldingCredit && (
+                  <figcaption>{selected.afbeeldingCredit}</figcaption>
+                )}
+              </figure>
+            )}
             <div className="reader-story">{selected.tekst}</div>
             <div className="reader-footer">
               <a
