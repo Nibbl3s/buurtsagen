@@ -7,4 +7,4 @@ next-env.d.ts
 !.env.example
 .DS_Store
 server.log
-*.log
+*.log_sources/
