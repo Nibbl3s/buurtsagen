@@ -17,16 +17,14 @@ function loadRead(): string[] {
 export default function Atlas({ sagen }: { sagen: Sage[] }) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
-  const initializedRef = useRef(false);
   const markersRef = useRef<Record<string, L.Marker>>({});
 
-  const [mounted, setMounted] = useState(false);
   const [active, setActive] = useState<string>("Alle");
   const [selected, setSelected] = useState<Sage | null>(null);
   const [read, setRead] = useState<Set<string>>(new Set());
 
+  // load persisted read state after mount (avoids hydration mismatch)
   useEffect(() => {
-    setMounted(true);
     setRead(new Set(loadRead()));
   }, []);
 
@@ -35,11 +33,10 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
     [sagen]
   );
 
-  // init map once
+  // init map — container is always in the DOM (no mounted gate), so this is safe
   useEffect(() => {
     const container = mapContainerRef.current;
-    if (!container || initializedRef.current) return;
-    initializedRef.current = true;
+    if (!container || mapRef.current) return;
 
     try {
       const map = L.map(container, {
@@ -64,18 +61,16 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
         observer.disconnect();
         map.remove();
         mapRef.current = null;
-        initializedRef.current = false;
       };
     } catch (e) {
       console.error("Map init failed", e);
-      initializedRef.current = false;
     }
   }, []);
 
-  // create markers once
+  // create markers once the map exists
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || !mounted) return;
+    if (!map) return;
 
     const markers: Record<string, L.Marker> = {};
     sagen.forEach((s) => {
@@ -97,14 +92,12 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
       markersRef.current = {};
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mounted, sagen]);
+  }, [sagen]);
 
-  // apply filter + read state to markers
+  // apply filter + read state
   useEffect(() => {
-    if (!mounted) return;
     const map = mapRef.current;
     if (!map) return;
-
     sagen.forEach((s) => {
       const m = markersRef.current[s.id];
       if (!m) return;
@@ -117,10 +110,27 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
         el.classList.toggle("pulse", !read.has(s.id));
       }
     });
-  }, [active, read, mounted, sagen]);
+  }, [active, read, sagen]);
+
+  // escape closes the reader + scroll lock while open
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setSelected(null);
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = selected ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [selected]);
 
   function openStory(s: Sage) {
     setSelected(s);
+    mapRef.current?.flyTo([s.lat, s.lng], 16, { duration: 1.2 });
     setRead((prev) => {
       if (prev.has(s.id)) return prev;
       const next = new Set(prev).add(s.id);
@@ -132,10 +142,6 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
   function randomStory() {
     const pool = sagen.filter((s) => active === "Alle" || s.type === active);
     if (pool.length) openStory(pool[Math.floor(Math.random() * pool.length)]);
-  }
-
-  if (!mounted) {
-    return <div style={{ height: "100vh", width: "100vw", background: "#0a0e1a" }} />;
   }
 
   return (
@@ -172,25 +178,42 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
         <b>{read.size}</b> / {sagen.length} verhalen gelezen
       </div>
 
-      <aside className={"card" + (selected ? " open" : "")}>
-        {selected && (
-          <>
-            <button className="close" onClick={() => setSelected(null)}>
+      {/* full-screen reading overlay — the story IS the focus */}
+      {selected && (
+        <div className="reader-backdrop" onClick={() => setSelected(null)}>
+          <article
+            className="reader"
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={selected.titel}
+          >
+            <button className="reader-close" onClick={() => setSelected(null)} aria-label="Sluiten">
               ✕
             </button>
             <span className="badge">{selected.type}</span>
             <h2>{selected.titel}</h2>
-            <div className="place">📍 {selected.plaats}</div>
-            <div className="story">{selected.tekst}</div>
-            <a className="src" href={selected.bronUrl} target="_blank" rel="noopener noreferrer">
-              Bron: {selected.bronNaam} ↗
-            </a>
-            <div className="read-tag">
-              ✓ gelezen — {read.size} van {sagen.length} verhalen
+            <div className="place">
+              📍 {selected.plaats}
+              {read.has(selected.id) && <span className="read-inline"> · ✓ gelezen</span>}
             </div>
-          </>
-        )}
-      </aside>
+            <div className="reader-story">{selected.tekst}</div>
+            <div className="reader-footer">
+              <a
+                className="src"
+                href={selected.bronUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bron: {selected.bronNaam} ↗
+              </a>
+              <span className="read-tag">
+                {read.size} / {sagen.length} gelezen
+              </span>
+            </div>
+          </article>
+        </div>
+      )}
     </div>
   );
 }
