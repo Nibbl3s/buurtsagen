@@ -40,8 +40,8 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
 
     try {
       const map = L.map(container, {
-        center: [51.0536, 3.7222],
-        zoom: 15,
+        center: [50.97, 3.73],
+        zoom: 12,
         zoomControl: false,
         attributionControl: false,
       });
@@ -151,7 +151,7 @@ export default function Atlas({ sagen }: { sagen: Sage[] }) {
 
       <header className="brand">
         <h1>Buurtsagen</h1>
-        <p>Gent · nacht-archief van de buurt</p>
+        <p>Gent & de Vlaamse Ardennen · nacht-archief van de buurt</p>
       </header>
 
       <nav className="chips">

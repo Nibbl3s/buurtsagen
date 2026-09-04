@@ -1,0 +1,881 @@
+{
+ "Oosterzele": {
+  "totaal": 1,
+  "items": [
+   {
+    "id": "182808",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1959"
+   }
+  ]
+ },
+ "Burst": {
+  "totaal": 2,
+  "items": [
+   {
+    "id": "159734",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "192327",
+    "titel": "Het belde altijd",
+    "type": "sage",
+    "jaar": "1959"
+   }
+  ]
+ },
+ "Vlekkem": {
+  "totaal": 23,
+  "items": [
+   {
+    "id": "163102",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "168758",
+    "titel": "Dreigt met het bijl",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "175221",
+    "titel": "Vraag haar de weg niet",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "175993",
+    "titel": "Het vlees betoverd",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "180509",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "187647",
+    "titel": "Kaartlegster te Herzele",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "190351",
+    "titel": "Dak wordt afgebroken en teruggeplaatst",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "195407",
+    "titel": "Betoverde mastelle opgegeten",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "194824",
+    "titel": "Hij las veel toverboeken",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "157431",
+    "titel": "Pastoor redt betenveld",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "167079",
+    "titel": "Oude moeder kruip in d'aarde",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "161689",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "161630",
+    "titel": "Hond vergezelt man tot aan zijn huis",
+    "type": "sage",
+    "jaar": "1969"
+   },
+   {
+    "id": "160589",
+    "titel": "Heksen vergaderen in een huis te Vlekkem",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "164835",
+    "titel": "Toveres hoort alles",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "164395",
+    "titel": "Variante",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "193304",
+    "titel": "Doet iemand terugkeren",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "185599",
+    "titel": "Het brood betoverd",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "198181",
+    "titel": "Macht over honden",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "197460",
+    "titel": "Dat zal van de Jipenessen zijn",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "197530",
+    "titel": "Een schoon Mechels koeiken",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "203701",
+    "titel": "De Feestende Jipenessen",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "206813",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   }
+  ]
+ },
+ "Heldergem": {
+  "totaal": 16,
+  "items": [
+   {
+    "id": "160732",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "165922",
+    "titel": "Dieren liepen rond om 12u",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "170302",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "176292",
+    "titel": "Toveressen vastgezet te Heldergem",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "190622",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "162077",
+    "titel": "Heks kon geen water putten",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "157919",
+    "titel": "Wratten overlezen",
+    "type": "sage",
+    "jaar": "2002"
+   },
+   {
+    "id": "166883",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "171934",
+    "titel": "Man wordt door alf naar beek geleid",
+    "type": "sage",
+    "jaar": "1969"
+   },
+   {
+    "id": "190155",
+    "titel": "Heks moest vanuit Frankrijk naar Aaigem komen",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "192374",
+    "titel": "Man liep een ganse nacht rond met een zakje aardappelen",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "192520",
+    "titel": "Voorzegging werd werkelijkheid",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "199155",
+    "titel": "X woont plots in Heldergem",
+    "type": "sage",
+    "jaar": "2002"
+   },
+   {
+    "id": "198763",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "205202",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "204069",
+    "titel": "Heks zendt spookdieren",
+    "type": "sage",
+    "jaar": "1967"
+   }
+  ]
+ },
+ "Zottegem": {
+  "totaal": 22,
+  "items": [
+   {
+    "id": "165946",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "169838",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "180052",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1997"
+   },
+   {
+    "id": "177627",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "177875",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1997"
+   },
+   {
+    "id": "184026",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "198606",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "159881",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "199818",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "202423",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "156295",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "162754",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1997"
+   },
+   {
+    "id": "162966",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "164519",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1997"
+   },
+   {
+    "id": "174406",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "183650",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "192927",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "192753",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "182887",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1999"
+   },
+   {
+    "id": "195532",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "201287",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "204738",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   }
+  ]
+ },
+ "Lierde": {
+  "totaal": 0,
+  "items": []
+ },
+ "Melle": {
+  "totaal": 0,
+  "items": []
+ },
+ "Evergem": {
+  "totaal": 0,
+  "items": []
+ },
+ "Deinze": {
+  "totaal": 1,
+  "items": [
+   {
+    "id": "189881",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1967"
+   }
+  ]
+ },
+ "Nazareth": {
+  "totaal": 16,
+  "items": [
+   {
+    "id": "160497",
+    "titel": "Variante (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "190713",
+    "titel": "Toverheks hindert een geestelijke in zijn macht (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "192427",
+    "titel": "Twee vrouwen wandelen 's nachts over de hofstede (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "195102",
+    "titel": "Weerwolf wordt de kop afgehakt (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "194736",
+    "titel": "Variante (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "200694",
+    "titel": "Tovenaar vliegt door de lucht (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "206806",
+    "titel": "Voorspelling van de oorlog (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "157468",
+    "titel": "Variante (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "179193",
+    "titel": "Toverheks betovert een kind door er gebaren over te maken (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "187584",
+    "titel": "Variante (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "190368",
+    "titel": "Toverheks herkend bij het afsterven (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "188179",
+    "titel": "Variante (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "188641",
+    "titel": "Variante - (Asper)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "192900",
+    "titel": "Toverstoel komt steeds terug als men hem verwijdert (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "159416",
+    "titel": "Vrijmetselaar weet alles (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   },
+   {
+    "id": "165190",
+    "titel": "Weerwolf maakt zich kenbaar bij het verbranden van zijn vel (Nazareth)",
+    "type": "sage",
+    "jaar": "1956"
+   }
+  ]
+ },
+ "Gavere": {
+  "totaal": 1,
+  "items": [
+   {
+    "id": "189975",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1959"
+   }
+  ]
+ },
+ "Drongen": {
+  "totaal": 2,
+  "items": [
+   {
+    "id": "178588",
+    "titel": "De galgejongen.",
+    "type": "sage",
+    "jaar": "1968"
+   },
+   {
+    "id": "162849",
+    "titel": "Tovenaar veroorzaakt de dood van een kind",
+    "type": "sage",
+    "jaar": "1955"
+   }
+  ]
+ },
+ "Sint-Martens-Lierde": {
+  "totaal": 5,
+  "items": [
+   {
+    "id": "163803",
+    "titel": "Paters verplaatsen het kwaad voor honderd jaar",
+    "type": "sage",
+    "jaar": "1952"
+   },
+   {
+    "id": "201100",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "178578",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "177162",
+    "titel": "Framassons kon men horen",
+    "type": "sage",
+    "jaar": "1967"
+   },
+   {
+    "id": "188918",
+    "titel": "Van den alf geleid man maakt grote omweg",
+    "type": "sage",
+    "jaar": "1952"
+   }
+  ]
+ },
+ "Hemelveerdegem": {
+  "totaal": 2,
+  "items": [
+   {
+    "id": "193675",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "169360",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   }
+  ]
+ },
+ "Sint-Maria-Lierde": {
+  "totaal": 4,
+  "items": [
+   {
+    "id": "196383",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "158990",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "187450",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1975"
+   },
+   {
+    "id": "198989",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   }
+  ]
+ },
+ "Schendelbeke": {
+  "totaal": 16,
+  "items": [
+   {
+    "id": "164128",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1975"
+   },
+   {
+    "id": "177627",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "183573",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "193312",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1975"
+   },
+   {
+    "id": "197773",
+    "titel": "Tovenaar verhindert wagen te vertrekken",
+    "type": "sage",
+    "jaar": "1952"
+   },
+   {
+    "id": "159333",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "165306",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "167327",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "171477",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "172329",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "172349",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "182547",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "189528",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "188767",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1975"
+   },
+   {
+    "id": "184974",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   },
+   {
+    "id": "195795",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1964"
+   }
+  ]
+ },
+ "Impe": {
+  "totaal": 8,
+  "items": [
+   {
+    "id": "180056",
+    "titel": "Dode komt klagen",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "170515",
+    "titel": "Iets kruisgewijs leggen",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "169018",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "201788",
+    "titel": "Drieskese put",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "174252",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "196313",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "166488",
+    "titel": "De stallen waren betoverd",
+    "type": "sage",
+    "jaar": "1959"
+   },
+   {
+    "id": "200028",
+    "titel": "Variant",
+    "type": "sage",
+    "jaar": "1959"
+   }
+  ]
+ },
+ "Balegem": {
+  "totaal": 13,
+  "items": [
+   {
+    "id": "166690",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "180704",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "174993",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "185901",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "202054",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "202752",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "178283",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1975"
+   },
+   {
+    "id": "178648",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "183009",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "190263",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "187920",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "197285",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   },
+   {
+    "id": "197768",
+    "titel": "_Geen titel_",
+    "type": "sage",
+    "jaar": "1998"
+   }
+  ]
+ }
+}

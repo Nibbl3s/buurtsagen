@@ -2,7 +2,7 @@
   "name": "buurtsagen",
   "version": "0.1.0",
   "private": false,
-  "description": "Interactieve kaart van Gentse folklore — echte sagen, legenden en boemannen op echte plekken in de stad.",
+  "description": "Interactieve kaart van folklore uit Gent en de Vlaamse Ardennen — echte sagen, legenden en boemannen op echte plekken.",
   "license": "MIT",
   "repository": {
     "type": "git",

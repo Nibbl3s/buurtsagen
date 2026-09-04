@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Buurtsagen — Gent",
+  title: "Buurtsagen — Vlaamse Ardennen",
   description:
-    "Nacht-archief van Gentse folklore: sagen, legenden en boemannen op de kaart van de stad.",
+    "Nacht-archief van de Vlaamse Ardennen: sagen, legenden en boemannen van Gent tot Zottegem, verbonden aan echte plekken.",
 };
 
 export default function RootLayout({

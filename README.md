@@ -1,12 +1,12 @@
 # Buurtsagen 🌙
 
-Een interactieve kaart van Gentse folklore — echte sagen, legenden en boemannen, verbonden aan echte plekken in de stad. Van de Duivelstoren tot de Stroppen, van Naart Stuyck tot de Sloekepier.
+Een interactieve kaart van folklore uit Gent en de Vlaamse Ardennen — echte sagen, legenden en boemannen, verbonden aan echte plekken. Van de Duivelstoren tot de doodkaars van Herzele, van de heksenvergadering van Vlekkem tot de weerwolf van Schendelbeke.
 
 **[Live demo](#) · Next.js 14 + Leaflet · volledig statisch · geen backend**
 
 ## Wat is dit?
 
-Een nachtelijke kaart van Gent waar elke gloeiende markering een echt volksverhaal op een echte locatie voorstelt. Klik een orbe aan en lees de sage — met bronvermelding. Verhalen die je leest worden groen en blijven bewaard in je browser (localStorage).
+Een nachtelijke kaart waar elke gloeiende markering een echt volksverhaal op een echte locatie voorstelt — van Gent tot in de Vlaamse Ardennen (Herzele, Zottegem, Lierde, Nazareth…). Klik een orbe aan en lees de sage — met bronvermelding. Verhalen die je leest worden groen en blijven bewaard in je browser (localStorage).
 
 - 🗺️ Kaart-first: CARTO Dark Matter basiskaart met mist- en sfeereffecten
 - 📖 52 echte verhalen — Gent, Herzele en de omliggende dorperring — elk met bronlink (volksverhalen.be, verhalenbank.nl, Wikipedia)
@@ -52,6 +52,7 @@ De app leest de map automatisch in (alfabetisch gesorteerd). Nieuwe types versch
 **Verhaleninhoud (`data/stories/`):** de teksten zijn overgenomen van hun bronnen en blijven eigendom van de auteurs:
 
 - [volksverhalen.be](https://www.volksverhalen.be) — © Filip Gybels, gebruikt met bronvermelding, niet-commercieel en educatief
+- [Vlaamse Volksverhalenbank / verhalenbank.nl](https://www.verhalenbank.nl) — verzameld 1952-2002 door KU Leuven-veldwerk; teksten met vermelding van verteller, verzamelaar en jaar
 - [Wikipedia](https://nl.wikipedia.org/wiki/Sloekepier) (Sloekepier) — CC BY-SA
 
 Hergebruik van de verhalenteksten buiten deze context vraagt toestemming van de bronhouders. De app zelf toont op elke kaart de bronlink.
