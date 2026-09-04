@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lennartdubois/buurtsagen.git"
+    "url": "git+https://github.com/Nibbl3s/buurtsagen.git"
   },
   "scripts": {
     "dev": "next dev",
